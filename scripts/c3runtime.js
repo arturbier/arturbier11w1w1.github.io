@@ -3995,10 +3995,9 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		C3.Plugins.System.Exps.originalviewportheight,
 		C3.Plugins.System.Cnds.IsGroupActive,
 		C3.Plugins.System.Cnds.CompareVar,
-		C3.Plugins.System.Cnds.IsMobile,
 		C3.Plugins.System.Cnds.TriggerOnce,
-		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.VKBridge.Acts.AdsMobile,
+		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.LocalStorage.Cnds.OnItemExists,
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
 		C3.Plugins.LocalStorage.Exps.ItemValue,
@@ -4037,6 +4036,7 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
 		C3.Behaviors.Fade.Cnds.OnFadeInEnd,
 		C3.Plugins.Dictionary.Acts.AddKey,
+		C3.Plugins.System.Cnds.IsMobile,
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.System.Exps.layoutname,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
@@ -4436,6 +4436,7 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		},
 		() => 1,
 		() => "Реклама",
+		() => 0.1,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0();
@@ -4488,7 +4489,6 @@ value){switch(index){case ENABLE:this.SetEnabled(value);break}}GetDebuggerProper
 		() => "Transition",
 		() => "Out",
 		() => "DontEnergy",
-		() => 0.1,
 		() => "30,10,30,10,30,10",
 		() => 98,
 		p => {
